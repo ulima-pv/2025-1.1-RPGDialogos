@@ -1,0 +1,34 @@
+title: Start
+---
+Narrator: ¡Hola, soy el narrador de esta guía para principiantes!
+Narrator: ¡Estoy hablándote con Yarn Spinner!
+Narrator: Entonces, ¿qué opinas de todo esto?
+	-> Está bien, supongo.
+	   <<jump Alright>>
+	-> Es genial. Me encanta.
+	   <<jump Awesome>>
+===
+
+title: Alright
+---
+Narrator: Bueno, eso no es muy amable.
+Narrator: Estoy haciendo mi mejor esfuerzo aquí.
+	-> ¿De verdad? No lo creo.
+	   Narrator: ¡Pues nunca!
+	   Narrator: Tendré que hablar con el escritor.
+	-> Oh, está bien. Lo siento.
+	   Narrator: Así está mejor.
+	   Narrator: Me alegra que hayamos podido resolver esto.
+===
+
+title: Awesome
+---
+Narrator: Oh, eres muy amable.
+Narrator: Solo estoy haciendo mi trabajo.
+	-> Estás haciendo un gran trabajo.
+	   Narrator: Oh, basta, tú.
+	   Narrator: Me estás haciendo sonrojar.
+	-> Tienes un talento natural.
+	   Narrator: Oh, tú.
+	   Narrator: Solo estoy haciendo mi trabajo.
+===
